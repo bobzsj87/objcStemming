@@ -15,6 +15,7 @@
 		211FAEEA1557B1CC00915185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEE91557B1CC00915185 /* AppDelegate.m */; };
 		211FAEF21557B21500915185 /* Stemmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEF11557B21500915185 /* Stemmer.m */; };
 		211FAEFA1557B3A600915185 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEF91557B3A600915185 /* RegexKitLite.m */; };
+		211FAEFE1557B54600915185 /* NSString+Stemming.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEFD1557B54600915185 /* NSString+Stemming.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		211FAEF11557B21500915185 /* Stemmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stemmer.m; path = Stemmer/Stemmer.m; sourceTree = "<group>"; };
 		211FAEF81557B3A600915185 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		211FAEF91557B3A600915185 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		211FAEFC1557B54600915185 /* NSString+Stemming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Stemming.h"; path = "Stemmer/NSString+Stemming.h"; sourceTree = "<group>"; };
+		211FAEFD1557B54600915185 /* NSString+Stemming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Stemming.m"; path = "Stemmer/NSString+Stemming.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				211FAEE91557B1CC00915185 /* AppDelegate.m */,
 				211FAEF01557B21500915185 /* Stemmer.h */,
 				211FAEF11557B21500915185 /* Stemmer.m */,
+				211FAEFC1557B54600915185 /* NSString+Stemming.h */,
+				211FAEFD1557B54600915185 /* NSString+Stemming.m */,
 				211FAEE01557B1CC00915185 /* Supporting Files */,
 			);
 			path = objCStemming;
@@ -173,6 +178,7 @@
 				211FAEEA1557B1CC00915185 /* AppDelegate.m in Sources */,
 				211FAEF21557B21500915185 /* Stemmer.m in Sources */,
 				211FAEFA1557B3A600915185 /* RegexKitLite.m in Sources */,
+				211FAEFE1557B54600915185 /* NSString+Stemming.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

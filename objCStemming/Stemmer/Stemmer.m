@@ -7,8 +7,22 @@
 //
 
 #import "Stemmer.h"
+#import "RegexKitLite.h"
+
+
+#define r_exp       @"[^aeiouy]*[aeiouy]+[^aeiouy](\w*)"
+#define ewss_exp1   @"^[aeiouy][^aeiouy]$"
+#define ewss_exp2   @".*[^aeiouy][aeiouy][^aeiouywxY]$"
+#define ccy_exp     @"([aeiouy])y"
+#define s1a_exp     @"[aeiouy]."
+#define s1b_exp     @"[aeiouy]"
+
+
 
 @interface Stemmer ()
+
+- (int)get_r1:(NSString *)word;
+
 
 @end
 
@@ -27,7 +41,16 @@
     return nil;
 }
 
+- (void)dealloc
+{
+    [super dealloc];
+}
 
 // private functions
+
+- (int)get_r1:(NSString *)word
+{
+    
+}
 
 @end
