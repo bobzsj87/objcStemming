@@ -14,6 +14,7 @@
 		211FAEE61557B1CC00915185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEE51557B1CC00915185 /* main.m */; };
 		211FAEEA1557B1CC00915185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEE91557B1CC00915185 /* AppDelegate.m */; };
 		211FAEF21557B21500915185 /* Stemmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEF11557B21500915185 /* Stemmer.m */; };
+		211FAEFA1557B3A600915185 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEF91557B3A600915185 /* RegexKitLite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		211FAEE91557B1CC00915185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		211FAEF01557B21500915185 /* Stemmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stemmer.h; path = Stemmer/Stemmer.h; sourceTree = "<group>"; };
 		211FAEF11557B21500915185 /* Stemmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stemmer.m; path = Stemmer/Stemmer.m; sourceTree = "<group>"; };
+		211FAEF81557B3A600915185 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		211FAEF91557B3A600915185 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		211FAEDF1557B1CC00915185 /* objCStemming */ = {
 			isa = PBXGroup;
 			children = (
+				211FAEF71557B3A600915185 /* Regex */,
 				211FAEE81557B1CC00915185 /* AppDelegate.h */,
 				211FAEE91557B1CC00915185 /* AppDelegate.m */,
 				211FAEF01557B21500915185 /* Stemmer.h */,
@@ -93,6 +97,15 @@
 				211FAEE71557B1CC00915185 /* objCStemming-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		211FAEF71557B3A600915185 /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				211FAEF81557B3A600915185 /* RegexKitLite.h */,
+				211FAEF91557B3A600915185 /* RegexKitLite.m */,
+			);
+			path = Regex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +172,7 @@
 				211FAEE61557B1CC00915185 /* main.m in Sources */,
 				211FAEEA1557B1CC00915185 /* AppDelegate.m in Sources */,
 				211FAEF21557B21500915185 /* Stemmer.m in Sources */,
+				211FAEFA1557B3A600915185 /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +276,7 @@
 				211FAEEF1557B1CC00915185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
