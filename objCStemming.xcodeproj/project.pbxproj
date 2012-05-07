@@ -16,6 +16,7 @@
 		211FAEF21557B21500915185 /* Stemmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEF11557B21500915185 /* Stemmer.m */; };
 		211FAEFA1557B3A600915185 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEF91557B3A600915185 /* RegexKitLite.m */; };
 		211FAEFE1557B54600915185 /* NSString+Stemming.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FAEFD1557B54600915185 /* NSString+Stemming.m */; };
+		211FAF001557BAE100915185 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 211FAEFF1557BAE100915185 /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		211FAEF91557B3A600915185 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		211FAEFC1557B54600915185 /* NSString+Stemming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Stemming.h"; path = "Stemmer/NSString+Stemming.h"; sourceTree = "<group>"; };
 		211FAEFD1557B54600915185 /* NSString+Stemming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Stemming.m"; path = "Stemmer/NSString+Stemming.m"; sourceTree = "<group>"; };
+		211FAEFF1557BAE100915185 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211FAF001557BAE100915185 /* libicucore.dylib in Frameworks */,
 				211FAEDA1557B1CC00915185 /* UIKit.framework in Frameworks */,
 				211FAEDC1557B1CC00915185 /* Foundation.framework in Frameworks */,
 				211FAEDE1557B1CC00915185 /* CoreGraphics.framework in Frameworks */,
@@ -71,6 +74,7 @@
 		211FAED81557B1CB00915185 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				211FAEFF1557BAE100915185 /* libicucore.dylib */,
 				211FAED91557B1CB00915185 /* UIKit.framework */,
 				211FAEDB1557B1CC00915185 /* Foundation.framework */,
 				211FAEDD1557B1CC00915185 /* CoreGraphics.framework */,

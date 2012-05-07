@@ -11,5 +11,5 @@
 @interface Stemmer : NSObject
 
 + (Stemmer *)stemmer;
-
+- (void)destory;
 @end
